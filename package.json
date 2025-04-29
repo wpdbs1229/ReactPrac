@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format" :"prettier --check ./src",
+    "format:fix" :"prettier --write ./src"
   },
   "eslintConfig": {
     "extends": [
@@ -46,5 +48,12 @@
   "main": "index.js",
   "repository": "https://github.com/wpdbs1229/ReactPrac.git",
   "author": "dlwpdbs1229@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+
+  "devDependencies": {
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "prettier": "^3.5.3"
+  }
 }
